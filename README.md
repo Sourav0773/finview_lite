@@ -1,23 +1,23 @@
 # Finview_lite
 
-## Demo Video
+## 1. Demo Video
    -- [Demo](https://drive.google.com/file/d/1GLQ9LO63vkyAKegx35Erem5KlrYjblcN/view?usp=drivesdk)
 
-## 1. Flutter & Dart Version
+## 2. Flutter & Dart Version
     -- Flutter SDK [3.44.1]
     -- Dart SDK [3.12.1] 
 
-## 2. Dependencies
+## 3. Dependencies
     -- equatable
     -- fl_chart
     -- shared_preferences
 
-## 3. How to run
+## 4. How to run
     -- [Step 1] : flutter clean
     -- [Step 2] : flutter pub get
     -- [Step 3] : flutter run
 
-## Description of UI
+## 5. Description of UI
     -- The UI consists of a Dashboard Screen designed for portfolio management and financial data visualization.
 
     -- The Dashboard screen has a header with User Greetings, the User's Name, a Manual Refresh button, and a Theme Toggle Button.
