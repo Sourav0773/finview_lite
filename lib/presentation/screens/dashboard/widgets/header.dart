@@ -40,27 +40,49 @@ class Header extends StatelessWidget {
           ],
         ),
         Row(
-          children: [
-            /// Refresh button
-            IconButton(
-              icon: const Icon(Icons.refresh_rounded),
-              color: theme.colorScheme.onSurface, 
-              onPressed: onRefresh,
-            ),
-            SizedBox(width: isDesktop ? 16 : 4),
-            
-            /// Theme switching button
-            IconButton(
-              icon: Icon(
-                theme.brightness == Brightness.dark
-                    ? Icons.light_mode_outlined
-                    : Icons.dark_mode_outlined,
-                color: theme.colorScheme.onSurface, 
-              ),
-              onPressed: onThemeToggle,
-            ),
-          ],
+  children: [
+    /// Refresh button
+    Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        IconButton(
+          icon: const Icon(Icons.refresh_rounded),
+          color: theme.colorScheme.onSurface,
+          onPressed: onRefresh,
         ),
+        Text(
+          'Refresh',
+          style: theme.textTheme.labelSmall?.copyWith(
+            color: theme.colorScheme.onSurfaceVariant,
+          ),
+        ),
+      ],
+    ),
+    SizedBox(width: isDesktop ? 16 : 4),
+
+    /// Theme switching button
+    Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        IconButton(
+          icon: Icon(
+            theme.brightness == Brightness.dark
+                ? Icons.light_mode_outlined
+                : Icons.dark_mode_outlined,
+            color: theme.colorScheme.onSurface,
+          ),
+          onPressed: onThemeToggle,
+        ),
+        Text(
+          theme.brightness == Brightness.dark ? 'Light Theme' : 'Dark Theme',
+          style: theme.textTheme.labelSmall?.copyWith(
+            color: theme.colorScheme.onSurfaceVariant,
+          ),
+        ),
+      ],
+    ),
+  ],
+),
       ],
     );
   }
