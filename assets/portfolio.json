@@ -1,0 +1,28 @@
+{ 
+  "user": "Sourav", 
+  "portfolio_value": 45440,
+  "total_gain": 3040,
+  "holdings": [ 
+    { 
+      "symbol": "TCS", 
+      "name": "Tata Consultancy Services", 
+      "units": 5, 
+      "avg_cost": 3200, 
+      "current_price": 3400 
+    }, 
+    { 
+      "symbol": "INFY", 
+      "name": "Infosys Ltd", 
+      "units": 10, 
+      "avg_cost": 1400, 
+      "current_price": 1500 
+    },
+    {
+      "symbol": "HDFC",
+      "name": "HDFC Bank",
+      "units": 8,
+      "avg_cost": 1550,
+      "current_price": 1680
+    }
+  ]
+}
