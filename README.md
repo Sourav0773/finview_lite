@@ -1,7 +1,7 @@
 # Finview_lite
 
 ## Demo Video
-   -- [Demo Video]([https://github.com/Sourav0773](https://drive.google.com/file/d/1GLQ9LO63vkyAKegx35Erem5KlrYjblcN/view?usp=drivesdk))
+   -- [Demo](https://drive.google.com/file/d/1GLQ9LO63vkyAKegx35Erem5KlrYjblcN/view?usp=drivesdk)
 
 ## 1. Flutter & Dart Version
     -- Flutter SDK [3.44.1]
