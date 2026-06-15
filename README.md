@@ -31,3 +31,8 @@
     
     -- It includes a scrollable Holdings List View displaying individual assets with their specific total value and dynamic gain/loss 
        status  in amount or percentage.
+
+    -- Desktop/Web View
+      <img width="1920" height="960" alt="DesktopView" src="https://github.com/user-attachments/assets/6085a37f-bd0f-4437-a705-b6c2b610fe74" />
+
+       
